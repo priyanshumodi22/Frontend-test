@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.save {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(86, 29, 94) 0%, rgb(137.75, 72.37, 146.93) 100%);
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  height: 52px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 14px 210px;
+  position: relative;
+  width: 464px;
+}
+.save .button {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  margin-left: -4.5px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
